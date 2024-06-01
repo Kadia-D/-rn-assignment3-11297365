@@ -4,7 +4,7 @@ import TaskItem from '../components/TaskItem';
 import Icon from 'react-native-vector-icons/Ionicons';
 
  const categories = [
-  { name: 'Exercise', image: require('../assets/profile.jpg'), tasks: 8 },
+  { name: 'Exercise', image: require('../assets/exercise.jpg'), tasks: 8 },
   { name: 'Study', image: require('../assets/study.jpg'), tasks: 2 },
   { name: 'Code', image: require('../assets/code.jpg'), tasks: 7 },
   { name: 'Cook', image: require('../assets/cook.jpg'), tasks: 5 },
@@ -20,9 +20,9 @@ const tasks = [
   { id: '3', task: 'Push Ups' },
   { id: '4', task: 'Read *As good as dead*' },
   { id: '5', task: 'Grocery Shopping' },
-  { id: '6', task: 'Meditation' },
-  { id: '7', task: 'Finish Homework' },
-  { id: '8', task: 'Clean the House' },
+  { id: '6', task: 'Do Yoga' },
+  { id: '7', task: 'Finish Assignment' },
+  { id: '8', task: 'Clean the Apartment' },
   { id: '9', task: 'Workout' },
   { id: '10', task: 'Learn React Native' },
   { id: '11', task: 'Cook Dinner' },
